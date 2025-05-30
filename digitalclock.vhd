@@ -1,7 +1,6 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.numeric_std.all;
--- fpga4student.com FPGA projects, VHDL projects, Verilog projects
 -- VHDL project: VHDL code for digital clock
 entity digital_clock is
 port ( 
@@ -51,7 +50,6 @@ port (
  clk_1s: out std_logic
      );
 end component;
--- fpga4student.com FPGA projects, VHDL projects, Verilog projects
 signal clk_1s: std_logic; -- 1-s clock
 signal counter_hour, counter_minute, counter_second: integer;
 -- counter using for create time
