@@ -42,8 +42,6 @@ ARCHITECTURE behavior OF tb_digital_clock IS
    -- Clock period definitions
    constant clk_period : time := 10 ps;
 BEGIN
--- fpga4student.com FPGA projects, VHDL projects, Verilog projects
- -- Instantiate the Unit Under Test (UUT)
    uut: digital_clock PORT MAP (
           clk => clk,
           rst_n => rst_n,
